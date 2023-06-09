@@ -1,0 +1,44 @@
+.banner{
+    display: flex;
+    margin-top: 80px;
+    padding: 3rem 7%;
+    
+ 
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: rgb(153, 152, 152);
+    color: white;
+}
+
+.inner-banner{
+    flex: 1 1 45rem;
+}
+.inner-banner img{
+    width: 100%;
+}
+.inner-banner h1{
+    font-size: 40px;
+    padding: .5rem 0;
+}
+.inner-banner p{
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.inner-banner a{
+    padding: 1rem 3rem;
+    background: white;
+    color:black;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: .5rem;
+    margin-left: 33px;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+.inner-banner a:hover{
+    background-color: red;
+    color: white;
+}

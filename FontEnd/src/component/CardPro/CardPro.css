@@ -1,0 +1,27 @@
+.card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    color: black;
+
+  }
+
+
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin-bottom: 20px;
+  }

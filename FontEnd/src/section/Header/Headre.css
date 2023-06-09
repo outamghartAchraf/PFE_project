@@ -1,0 +1,56 @@
+.navbar{
+    background-color: #f0f0f0;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 25px;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    box-shadow: 1px 1px 10px 1px rgb(198, 196, 196);
+
+}
+
+.nav a{
+    text-decoration: none;
+    margin: 10px;
+  
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.btnn{
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px ;
+    color: rgb(7, 7, 7);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0,3s;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 2PX solid rgb(107, 7, 134);
+    margin-left: 5PX;
+}
+
+.btnn:hover{
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+}
+.group-btn .btn{
+    margin: 5px;
+    display: flex;
+
+}
+.gouplogin{
+  display: flex;
+  
+}

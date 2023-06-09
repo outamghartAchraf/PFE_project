@@ -1,0 +1,33 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.art1 p{
+   font-size: 15pt;
+}
+
+.art1{
+   text-align: center;
+    
+   width: 21.25em;
+   margin: 20px;
+   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+   border-radius: 10px;
+   transition: 0.7s ease;
+   padding: 10px;
+}
+
+.art1:hover{
+   background-color: rgb(98, 201, 219);
+   color: white;
+   transform: scale(1.1);
+}
+
+.services{
+   text-align: center;
+}
+
+.services h2{
+   font-size: 35pt;
+}

@@ -1,0 +1,21 @@
+.gallery{
+    padding: 2rem 7%;
+}
+.gallery h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 1rem 0;
+}
+.main-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+.inner-gallery{
+    flex: 1 1 300px;
+}
+.inner-gallery img{
+    width: 100%;
+}
